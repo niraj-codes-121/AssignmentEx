@@ -14,11 +14,12 @@ import java.util.Scanner;
 public class GradeCalculator {
     public static void main(String[] args) {
 
-        Scanner scanner = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in); // to take input from user scanner object
 
-        System.out.println("Please Enter The obtained Mark:");
+        System.out.println("Please Enter The obtained Mark:"); //prompt user to enter mark
         double mark = scanner.nextDouble();
 
+        //if else statement
         String Grade;
         if(mark>=90 && mark<=100){
             Grade ="A";
