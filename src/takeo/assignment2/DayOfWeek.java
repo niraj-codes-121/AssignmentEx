@@ -13,17 +13,14 @@ import java.util.Scanner;
 public class DayOfWeek {
 
         public static void main(String[] args) {
-            // Create a Scanner object to read input from the user
-            Scanner scanner = new Scanner(System.in);
+
+            Scanner scanner = new Scanner(System.in);  // Create a Scanner object to read input from the user
 
             System.out.print("Enter a number (1-7) representing the day of the week: ");
             int dayNumber = scanner.nextInt();
 
-            // Close the Scanner after reading the input
-            scanner.close();
-
-            // Use a switch statement to display the corresponding day's name
-            String dayName;
+            scanner.close();  // Close the Scanner
+            String dayName;   // Use a switch statement to display the day's name
             switch (dayNumber) {
                 case 1:
                     dayName = "Sunday";
