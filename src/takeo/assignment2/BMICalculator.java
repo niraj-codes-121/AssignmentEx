@@ -27,8 +27,8 @@ public class BMICalculator {
         scanner.close();
     }
 
-    // Method to calculate BMI
-    public static double calculateBMI(double weight, double height) {
+        // Method to calculate BMI with parameter
+        public static double calculateBMI(double weight, double height) {
         return weight / (height * height);
     }
 }
