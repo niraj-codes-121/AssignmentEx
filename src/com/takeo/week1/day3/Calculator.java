@@ -1,4 +1,4 @@
-package takeo.assignment2;
+package com.takeo.week1.day3;
 //Exercise 6: Design a Calculator which perform a set of operations dynamically.
 //   Scenario: Design a Calculator class. Take input from user like :
 //   Enter first number = 5

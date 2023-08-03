@@ -1,4 +1,4 @@
-package takeo.day2;
+package com.takeo.week1.day2;
 
 //Calculate Area of a Rectangle
 //Scenario: You are designing a floor planning tool, and you need to calculate the area of a rectangle-shaped room.

@@ -1,4 +1,4 @@
-package takeo.assignment2;
+package com.takeo.week1.day5;
 //Exercise 5: BMI(Body Mass Index) Calculator
 //Write a Java program that calculates the Body Mass Index (BMI) of a person based on their weight and height.
 //Instructions:

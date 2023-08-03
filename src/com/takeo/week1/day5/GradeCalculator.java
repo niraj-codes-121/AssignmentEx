@@ -1,4 +1,4 @@
-package takeo.assignment2;
+package com.takeo.week1.day5;
 //Exercise 2: Grade Calculator
 //Write a Java program that calculates the grade based on the marks obtained by a student in an exam.
 //The program should follow the standard grading system: A (90-100), B (80-89), C (70-79), D (60-69), F (below 60).

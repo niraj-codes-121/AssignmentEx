@@ -5,9 +5,9 @@ public class EvenOddChecker {
     public static void checkEvenOdd(int[] arr) {
         for (int num : arr) {
             if (num % 2 == 0) {
-                System.out.println(num + " is even.");
+                System.out.println( " This is even."+num );
             } else {
-                System.out.println(num + " is odd.");
+                System.out.println("This is odd." +num);
             }
         }
     }

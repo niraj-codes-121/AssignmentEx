@@ -1,4 +1,9 @@
 package com.takeo.week2.day4;
+//Exercise 2: Write a java program that takes the base and height of a triangle and
+// return its area.(area of triangle = (base*height)/2)
+//
+//Ex :
+//triArea(3, 2) ➞ 3
 
 public class TriangleAreaCalculator {
     public static double triArea(double base, double height) {

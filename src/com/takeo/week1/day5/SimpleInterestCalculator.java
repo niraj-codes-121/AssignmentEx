@@ -1,4 +1,4 @@
-package takeo.assignment2;
+package com.takeo.week1.day5;
 //Write a Java program that calculates the simple interest based on the principal amount,
 // rate of interest, and time period provided by the user.
 //Instructions:

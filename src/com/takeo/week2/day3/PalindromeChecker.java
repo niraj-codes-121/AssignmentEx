@@ -4,32 +4,21 @@ import java.util.Scanner;
 
 public class PalindromeChecker {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        System.out.print("Enter a string: ");
-        String input = scanner.nextLine();
-        scanner.close();
 
-        if (isPalindrome(input)) {
-            System.out.println("The string is a palindrome.");
-        } else {
-            System.out.println("The string is not a palindrome.");
-        }
-    }
-
-    public static boolean isPalindrome(String input) {
-        int left = 0;
-        int right = input.length() - 1;
-
-        while (left < right) {
-            if (input.charAt(left) != input.charAt(right)) {
-                return false;
+        String name = "Deepak";
+        boolean result = isPalindrome(name);
+        System.out.println(result);
             }
-            left++;
-            right--;
+
+            public static boolean isPalindrome(String str) {
+                for (int i = 0; i < str.length() / 2; i++) {
+                    if (str.charAt(i) != str.charAt(str.length() - i - 1)) {
+                        return false;
+                    }
+                }
+                return true;
+            }
         }
-        return true;
-    }
-}
 
 
 

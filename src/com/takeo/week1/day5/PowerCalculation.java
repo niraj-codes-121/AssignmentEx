@@ -1,4 +1,4 @@
-package takeo.assignment2;
+package com.takeo.week1.day5;
 //Exercise 4: Power Calculation
 //Write a Java program that calculates the power of a given number raised to an exponent provided by the user.
 //Instructions:

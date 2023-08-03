@@ -1,4 +1,4 @@
-package takeo.assignment2;
+package com.takeo.week1.day5;
 //Exercise 3: Day of the Week
 //Write a Java program that takes a number representing a day of the week (1 for Sunday, 2 for Monday, etc.)
 // and displays the corresponding day's name.

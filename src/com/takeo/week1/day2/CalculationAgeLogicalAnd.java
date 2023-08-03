@@ -1,4 +1,4 @@
-package takeo.day2;
+package com.takeo.week1.day2;
 
 import java.util.Scanner;
 

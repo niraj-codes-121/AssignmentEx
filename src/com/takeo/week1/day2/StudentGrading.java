@@ -1,4 +1,4 @@
-package takeo.day2;
+package com.takeo.week1.day2;
 //Exercise 4: Student Grading
 //Scenario: You are developing a student grading application for a teacher.
 // You need to implement a feature that calculates the average grade of students in a class.

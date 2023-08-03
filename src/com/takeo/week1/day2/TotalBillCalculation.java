@@ -1,4 +1,4 @@
-package takeo.day2;
+package com.takeo.week1.day2;
 
 //Exercise 3: Total Bill Calculation
 //Scenario: You are developing a restaurant bill calculation application. You need to implement a feature

@@ -17,7 +17,7 @@ package com.takeo.week2.day1;
 public class TemperatureAnalyzer {
     public static void main(String[] args) {
         // Sample temperature values
-        int[] temperatures = {25, 30, 28, 22, 35, 27};
+        int[] temperatures = {15, 39, 99, 80, 55, 92};
 
         // Call the methods and print the results
         int maxTemperature = findMaxTemperature(temperatures);

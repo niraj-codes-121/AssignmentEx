@@ -1,4 +1,4 @@
-package takeo.day2;
+package com.takeo.week1.day2;
 //Write a program that converts Celsisus to Fahrenheit using the formula (Celsius * 9/5) + 32, and
 // prints the converted temperature.
 //// use proper data type for this as we can have decimal value there.

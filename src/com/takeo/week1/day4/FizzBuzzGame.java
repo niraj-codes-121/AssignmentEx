@@ -1,4 +1,4 @@
-package takeo.assignment2;
+package com.takeo.week1.day4;
 //Title: "FizzBuzz Game"
 //
 //Description:

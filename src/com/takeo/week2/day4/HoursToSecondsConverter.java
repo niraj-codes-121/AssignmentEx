@@ -1,8 +1,12 @@
 package com.takeo.week2.day4;
+//Exercise 1: Write a java program that takes an integer hours and converts it to seconds.
+//
+//Ex :
+//convert(5) ➞ 18000
 
 public class HoursToSecondsConverter {
     public static int convert(int hours) {
-        int seconds = hours * 3600; // 1 hour = 3600 seconds
+        int seconds = hours * 3600; // 1 hour = 3600 seconds given
         return seconds;
     }
 

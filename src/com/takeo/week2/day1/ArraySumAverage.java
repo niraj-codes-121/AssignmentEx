@@ -1,5 +1,7 @@
 package com.takeo.week2.day1;
-
+//Exercise 5: ArraySumAverage
+//Create a Java program that takes an array of integers as input from the user,
+//calculates the sum and average of the elements, and prints the results.
 
 import java.util.Scanner;
 
@@ -7,29 +9,30 @@ public class ArraySumAverage {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        // Get the size of the array from the user
+        // Ask the user to enter the size of the array
         System.out.print("Enter the size of the array: ");
         int size = scanner.nextInt();
 
-        // Create the array with the given size
-        int[] array = new int[size];
+        int[] numbers = new int[size];
 
-        // Get elements from the user and store them in the array
+        // Ask the user to enter elements of the array
+        System.out.println("Enter " + size + " integers:");
         for (int i = 0; i < size; i++) {
-            System.out.print("Enter element " + (i + 1) + ": ");
-            array[i] = scanner.nextInt();
+            numbers[i] = scanner.nextInt();
         }
 
-        // Calculate the sum and average of the elements
+        // Calculate the sum of the elements
         int sum = 0;
-        for (int num : array) {
+        for (int num : numbers) {
             sum += num;
         }
+
+        // Calculate the average of the elements
         double average = (double) sum / size;
 
-        // Print the sum and average
-        System.out.println("Sum: " + sum);
-        System.out.println("Average: " + average);
+        // Print the results
+        System.out.println("Sum of the elements: " + sum);
+        System.out.println("Average of the elements: " + average);
 
         scanner.close();
     }

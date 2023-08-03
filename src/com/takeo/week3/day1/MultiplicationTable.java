@@ -1,4 +1,8 @@
 package com.takeo.week3.day1;
+//Exercise 3 : Write a program that prints the multiplication table of a given number.
+//Ex : 2*1 = 2
+//      2*2 = 4 and so on.
+//hint : use for loop
 import java.util.Scanner;
 
 public class MultiplicationTable {
