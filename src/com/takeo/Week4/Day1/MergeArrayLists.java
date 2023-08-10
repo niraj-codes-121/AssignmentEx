@@ -9,12 +9,10 @@ public class MergeArrayLists {
         ArrayList<Integer> list1 = new ArrayList<>();
         list1.add(1);
         list1.add(3);
-        list1.add(5);
 
         ArrayList<Integer> list2 = new ArrayList<>();
         list2.add(2);
         list2.add(4);
-        list2.add(6);
 
         ArrayList<Integer> mergedList = mergeArrayLists(list1, list2);
 
@@ -24,8 +22,7 @@ public class MergeArrayLists {
     public static ArrayList<Integer> mergeArrayLists(ArrayList<Integer> list1, ArrayList<Integer> list2) {
         ArrayList<Integer> mergedList = new ArrayList<>();
 
-        // Add elements from list1 to the mergedList
-        for (Integer num : list1) {
+        for (Integer num : list1) { // Add elements from list1 to the mergedList
             mergedList.add(num);
         }
 
