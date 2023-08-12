@@ -1,4 +1,4 @@
-package StaticInJava;
+package Practice.StaticInJava;
 
 public class StudentWork {
     public static void main(String[] args) {
