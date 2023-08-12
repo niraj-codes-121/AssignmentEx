@@ -1,4 +1,4 @@
-package oop;
+package Practice.oop;
 
 public class EncapsulationWork {
     public static void main(String[] args) {
