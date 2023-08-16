@@ -1,8 +1,6 @@
 package com.takeo.Week4.Day2;
-//Create a simple phonebook using a map to store names and phone numbers. Allow the user to add, search for, and remove entries.Create a simple phonebook using a map to store names and phone numbers.
+//3. Create a simple phonebook using a map to store names and phone numbers. Allow the user to add, search for, and remove entries.Create a simple phonebook using a map to store names and phone numbers.
 // Allow the user to add, search for, and remove entries.
-
-
 
 import java.util.HashMap;
 import java.util.Map;

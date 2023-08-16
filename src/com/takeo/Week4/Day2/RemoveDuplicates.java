@@ -1,40 +1,30 @@
 package com.takeo.Week4.Day2;
-//Write a Java program that takes a list of integers, removes
-// duplicate values, and prints the result using a set.
 
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
+//2. Write a Java program that takes a list of integers,
+// removes duplicate values, and prints the result using a set.
+import java.util.*;
 
 public class RemoveDuplicates {
     public static void main(String[] args) {
-        List<Integer> numbers = new ArrayList<>();
-        numbers.add(3);
-        numbers.add(7);
-        numbers.add(2);
-        numbers.add(5);
-        numbers.add(7);
-        numbers.add(3);
-        numbers.add(9);
-        numbers.add(2);
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter a list of integers separated by spaces: ");
+        String input = scanner.nextLine();
+        scanner.close();
 
-        List<Integer> uniqueNumbers = removeDuplicates(numbers);
+        String[] numbers = input.split("\\s+");
+        List<Integer> integerList = new ArrayList<>();
 
-        System.out.println("Original list of integers: " + numbers);
-        System.out.println("List with duplicates removed: " + uniqueNumbers);
-    }
-
-    public static List<Integer> removeDuplicates(List<Integer> inputList) {
-        Set<Integer> uniqueSet = new HashSet<>();
-        List<Integer> result = new ArrayList<>();
-
-        for (Integer num : inputList) {
-            if (uniqueSet.add(num)) {
-                result.add(num);
+        for (String number : numbers) {
+            try {
+                int num = Integer.parseInt(number);
+                integerList.add(num);
+            } catch (NumberFormatException e) {
+                System.out.println("Invalid input: " + number);
             }
         }
 
-        return result;
+        Set<Integer> uniqueNumbers = new HashSet<>(integerList);
+
+        System.out.println("Unique values: " + uniqueNumbers);
     }
 }

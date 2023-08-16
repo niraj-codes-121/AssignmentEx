@@ -1,4 +1,4 @@
-package Practice.exception;
+package Practice.exceptionhanling;
 import java.io.*;
 public class JavaThrow {
 

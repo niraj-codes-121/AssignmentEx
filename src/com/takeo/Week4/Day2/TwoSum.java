@@ -1,5 +1,5 @@
 package com.takeo.Week4.Day2;
-//Given a list of integers and a target sum,
+//4. Given a list of integers and a target sum,
 // find two numbers in the list that add up to the target sum.
 
 import java.util.HashMap;
