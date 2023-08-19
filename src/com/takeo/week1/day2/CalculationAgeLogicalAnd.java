@@ -20,7 +20,7 @@ public class CalculationAgeLogicalAnd {
             System.out.println("old");
             }
         else {
-            System.out.println("Please enterr the valid age:");
+            System.out.println("Please enter the valid age:");
         }
 
 
