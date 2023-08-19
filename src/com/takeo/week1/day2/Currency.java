@@ -1,5 +1,5 @@
 package com.takeo.week1.day2;
-//cenario: You are developing a currency converter application, and
+//Scenario: You are developing a currency converter application, and
 // you need to implement a feature that converts a given amount in one
 // currency to another currency.
 //Given : USD value = 10
